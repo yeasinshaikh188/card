@@ -1,0 +1,42 @@
+*{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.container{
+   height: 450px;
+   width: 300px;
+   background-color: white;
+   box-shadow: 5, 5, 4, red;
+   margin: 0 auto;
+   margin-top: 50px;
+   padding: 20px;
+   border-radius: 20px;
+}
+.first-div{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.first-div img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    border-radius: 20px;
+    object-fit: cover;
+   object-position: top ;
+}
+h1{
+    text-align: center;
+    
+}
+.second-div{
+    padding: 20px;
+}
+.second-div p{
+    text-align: center;
+}
